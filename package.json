@@ -1,0 +1,11 @@
+{
+  "name": "browser",
+  "main": "index.html",
+  "window": {
+    "title": "Simple Browser",
+    "width": 1200,
+    "height": 800
+  },
+  "chromium-args": "--enable-media-stream --use-fake-ui-for-media-stream",
+  "node-remote": "<all_urls>"
+}
